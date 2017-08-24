@@ -1,11 +1,9 @@
-# lambdolf
-A repo of corrective security functions using AWS Lambda
-# Great Title
+# Lambdolf
+A repo of corrective access controls utilizing AWS Lambda.
 
-## Lambda For Proactive Security
+## Lambdas
+1. Quarantine IAM User
 
-### 1 What is Lamda
-
-### 2 Lambda by Example
-
-### 3 Future State & Potential
+## TODO
+1. Add more triggers for _quarantine.py_
+1. Create lamdba for reenabling CloudTrail if disabled
