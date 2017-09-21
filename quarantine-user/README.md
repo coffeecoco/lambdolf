@@ -6,12 +6,10 @@ This Lambda function will quarantine an IAM user by disabling
 1. Directly attached policies
 
 This repository provides details on the following suggested triggers for the lambda function.
-1. MFA Device is Deactivated
-
+1. MFA Device is deactivated or deleted.
 
 ## IAM Policy
-This is the required IAM policy that must be attached to the Lambda Role: [iam-policy.json](iam-policy.json)
-
+In addition to the AWSLambdaBasicExecutionRole IAM policy, this is the required IAM policy that must be attached to the Lambda Role: [iam-policy.json](iam-policy.json)
 
 ### Use Case: Trigger on "MFA Device is Deactivated"
 
